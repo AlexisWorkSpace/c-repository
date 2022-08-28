@@ -11,7 +11,7 @@ int main() {
 
   if(actual_month > 0 && actual_month<= 12 && birth_month > 0 && birth_month <= 12) {
     if(actual_day > 0 && birth_day > 0 && actual_day <= 31 && birth_day <= 31) {
-                          printf("+su edad es-> %d\n", actual_year - birth_year);
+      printf("+su edad es-> %d\n", actual_year - birth_year);
     }
     else {
       printf("-formato de fecha incorrecto\n");
