@@ -14,8 +14,7 @@ int main() {
   //limpio el buffer de entrada
   fflush(stdin);
   printf("ingrese el numero de historia del paciente-> "); scanf("%d", &numero_historia);
-
-
+  
   switch(codigo) {
     case 'A':
       importe = 20;
