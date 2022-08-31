@@ -1,4 +1,4 @@
-mport smtplib
+import smtplib
 from email.message import EmailMessage
 
 email_subject = "Email test from Python"
