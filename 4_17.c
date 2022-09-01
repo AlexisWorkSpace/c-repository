@@ -15,6 +15,18 @@ int main() {
   fflush(stdin);
   printf("ingrese el numero de historia del paciente-> "); scanf("%d", &numero_historia);
   
+  /*
+  dentro del switch pude reemplazarse de la siguiente manera sin usar toupper:
+  
+  case 'a': case 'A':
+    importe = 20;
+    break;
+   case 'd': case 'D':
+    importe = 40;
+    break;
+  
+  */
+  
   switch(codigo) {
     case 'A':
       importe = 20;
