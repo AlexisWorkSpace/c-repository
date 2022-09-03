@@ -17,9 +17,7 @@ int main() {
 			} else if(entrada_num == 0) {
 				zeros++;
 			}
-		
 		}
-	
 	} else prnitf("numero invalido");
 
 	promedio_neg = acumulacion_negativos / numero_negativo;
