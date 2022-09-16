@@ -18,7 +18,7 @@ int main () {
 
   printf ("[+] proceso finalizado con exito.\n");
   printf ("[+] el numero mas grande ingresado es -> %d\n", max);
-  printf ("[+] el segundo numero mas grande fue -> %1d\n", min);
+  printf ("[+] el segundo numero mas grande fue  -> %d\n", min);
 
   return 0;
 }
