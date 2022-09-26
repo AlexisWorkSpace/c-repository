@@ -45,7 +45,7 @@ void merge_sort (int *arr, int num) {
       n2 = n1 + 1;
     }
     arr1 = ( int* ) malloc (sizeof ( int ) * n1);
-    arr2 = ( int *) malloc (sizeof ( int ) * n2);
+    arr2 = ( int* ) malloc (sizeof ( int ) * n2);
     for (x = 0; x < n1; x++) arr1[x] = arr[x];
     for (y = 0; y < n2; x++, y++) arr2[y] = arr[x];
 
