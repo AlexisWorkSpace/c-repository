@@ -4,7 +4,7 @@ int lee_valida (int cota_min, int cota_max) {
   
   do {    
     if (condition) {
-      printf("[+] ingrese un valor correspondiente al siguiente intervalo [%d; %d] -> "); scanf("%d", &value);
+      printf("[+] ingrese un valor correspondiente al siguiente intervalo [%d; %d] -> ", cota_min, cota_max); scanf("%d", &value);
     } else {
       printf("[-] valor invalido - ingrese un valor dentro de los parametros establecidos\n------------> "); scanf("%d", &value);
     }
