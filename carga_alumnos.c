@@ -26,7 +26,7 @@ Alumno student_data(void) {
   Alumno student;
   printf("\n[+] ingrese el dni del estudiante -> "); scanf("%d", &student.dni); fflush(stdin);
   if(student.dni != 0) {
-    printf("[+] ingrese el nombre y el apellido del estudiante -> "); scanf("%s", student.nya); fflush(stdin);
+    printf("[+] ingrese el nombre y el apellido del estudiante -> "); gets(student.nya); fflush(stdin);
     printf("[+] ingrese la nota promedio de %s ->", student.nya); scanf("%f", &student.promedio);  
   }
   return student;
