@@ -1,4 +1,3 @@
-
 void main(void) {
     uint8_t valor = 0xFF; // 0b11111111
     uint8_t mascara;
